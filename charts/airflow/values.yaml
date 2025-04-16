@@ -57,7 +57,7 @@ airflow:
       repository: bitnamilegacy/postgresql
   redis:
     networkPolicy:
-      enabled: true
+      enabled: false
     master:
       resourcesPreset: "nano"
     image:
