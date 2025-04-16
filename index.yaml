@@ -28,7 +28,7 @@ entries:
     type: application
     urls:
     - https://github.com/UNGlobalPlatform/helm-charts-automation/releases/download/airflow-0.0.3/airflow-0.0.3.tgz
-    version: 0.0.3
+    version: 0.0.2
   - apiVersion: v2
     appVersion: 2.10.3
     created: "2025-04-16T09:23:46.385329093Z"
