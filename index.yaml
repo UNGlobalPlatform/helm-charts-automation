@@ -27,7 +27,7 @@ entries:
     - https://github.com/bitnami/charts/tree/main/bitnami/airflow
     type: application
     urls:
-    - https://github.com/UNGlobalPlatform/helm-charts-automation/releases/download/airflow-0.0.3/airflow-0.0.3.tgz
+    - https://github.com/UNGlobalPlatform/helm-charts-automation/releases/download/airflow-0.0.2/airflow-0.0.2.tgz
     version: 0.0.2
   - apiVersion: v2
     appVersion: 2.10.3
