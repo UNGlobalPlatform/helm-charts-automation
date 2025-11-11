@@ -24,18 +24,27 @@ Apache Airflow is a tool to express and execute workflows as directed acyclic gr
 | airflow.auth.password | string | `"changeme"` |  |
 | airflow.auth.secretKey | string | `"THIS IS UNSAFE!"` |  |
 | airflow.auth.username | string | `"admin"` |  |
+| airflow.dagProcessor.networkPolicy.enabled | bool | `false` |  |
 | airflow.dagProcessor.resourcesPreset | string | `"small"` |  |
 | airflow.dags.enabled | bool | `false` |  |
+| airflow.dags.networkPolicy.enabled | bool | `false` |  |
 | airflow.dags.repositories | list | `[]` |  |
 | airflow.image.repository | string | `"bitnamilegacy/airflow"` |  |
 | airflow.ingress.enabled | bool | `false` |  |
 | airflow.metrics.image.repository | string | `"bitnamilegacy/statsd-exporter"` |  |
+| airflow.metrics.networkPolicy.enabled | bool | `false` |  |
 | airflow.postgresql.image.repository | string | `"bitnamilegacy/postgresql"` |  |
+| airflow.postgresql.primary.networkPolicy.enabled | bool | `false` |  |
 | airflow.postgresql.primary.resourcesPreset | string | `"nano"` |  |
 | airflow.redis.image.repository | string | `"bitnamilegacy/redis"` |  |
 | airflow.redis.master.resourcesPreset | string | `"nano"` |  |
+| airflow.redis.networkPolicy.enabled | bool | `false` |  |
+| airflow.scheduler.networkPolicy.enabled | bool | `false` |  |
 | airflow.scheduler.resourcesPreset | string | `"small"` |  |
+| airflow.triggerer.networkPolicy.enabled | bool | `false` |  |
+| airflow.web.networkPolicy.enabled | bool | `false` |  |
 | airflow.web.resourcesPreset | string | `"medium"` |  |
+| airflow.worker.networkPolicy.enabled | bool | `false` |  |
 | airflow.worker.resourcesPreset | string | `"large"` |  |
 | global.security.allowInsecureImages | bool | `true` |  |
 | ingress.annotations | list | `[]` |  |
